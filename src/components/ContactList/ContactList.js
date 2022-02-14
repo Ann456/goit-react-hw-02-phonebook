@@ -1,4 +1,5 @@
 import s from './ContactList.module.css';
+import PropTypes from 'prop-types';
 
 const ContactList = ({ newContacts, deleteContact }) => {
     return (
@@ -27,3 +28,8 @@ const ContactList = ({ newContacts, deleteContact }) => {
 };
 
 export default ContactList;
+
+ContactList.propTypes = {
+    newContacts: PropTypes.array,
+    deleteContact: PropTypes.func,
+};

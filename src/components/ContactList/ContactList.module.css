@@ -3,17 +3,13 @@
   padding: 20px 10px;
   border: 1px solid #eee;
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
-  /* align-items: baseline; */
 }
 
 .list {
   margin: 0;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
+  padding: 0;
   list-style: none;
 }
 

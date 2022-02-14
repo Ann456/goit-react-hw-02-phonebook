@@ -1,4 +1,5 @@
 import s from './Filter.module.css';
+import PropTypes from 'prop-types';
 
 const Filter = ({filter, input}) => {
     return (
@@ -15,3 +16,8 @@ const Filter = ({filter, input}) => {
 };
 
 export default Filter;
+
+Filter.propTypes = {
+    filter: PropTypes.string,
+    input: PropTypes.func,
+};
